@@ -60,13 +60,14 @@ A workspace for learning and experimenting with JavaScript basics.
       console.log(greeting);
     output:
   ```
+
 ## Note:
   If didn't assign any value, the variable's value will be undefined
   ```js
     Code:
       let a;
     console.log("The value of a is: " + a);
-    
+
     output:
       The value of a is: undefined
   ```
