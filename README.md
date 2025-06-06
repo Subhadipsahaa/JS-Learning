@@ -78,7 +78,7 @@ A workspace for learning and experimenting with JavaScript basics.
   
 ## Note :
   ```js
-  "use strict"; //treat all JS Code as newer version by machine.
+  "use strict"; //Treat all JS Code as newer version by machine.
   ```
 
 ## JavaScript Data Types 
@@ -129,5 +129,5 @@ output:
 ```
 ## Note:
   ```js
-  console.log(typeof(variable)) // typeof use for know the the type.
+  console.log(typeof(variable)) // 'typeof' use for know the the type.
   ```
