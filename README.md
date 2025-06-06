@@ -64,9 +64,9 @@ A workspace for learning and experimenting with JavaScript basics.
       Output:
     ```
 
-## Note:
-  If didn't assign any value, the variable's value will be undefined
+## Note :
   ```js
+  //If didn't assign any value, the variable's value will be undefined
     Code:
       let a;
     console.log("The value of a is: " + a);
@@ -74,8 +74,12 @@ A workspace for learning and experimenting with JavaScript basics.
     Output:
       The value of a is: undefined
   ```
-## Note:
-  ``"use strict"`` treat all JS Code as newer version by machine.
+  
+  
+## Note :
+  ```js
+  "use strict"; //treat all JS Code as newer version by machine.
+  ```
 
 ## JavaScript Data Types 
 
@@ -123,3 +127,7 @@ output:
   bigint
   symbol
 ```
+## Note:
+  ```js
+  console.log(typeof(variable)) // typeof use for know the the type.
+  ```
