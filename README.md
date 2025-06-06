@@ -51,7 +51,7 @@ A workspace for learning and experimenting with JavaScript basics.
     1
   ```
 
-### No let,const,var :
+### No let,const and var :
 - we can declear a variable without const,var and let.(Not recomended)
 - Example:
   ```js
@@ -71,3 +71,5 @@ A workspace for learning and experimenting with JavaScript basics.
     output:
       The value of a is: undefined
   ```
+## Note:
+  ``"use strict"`` treat all JS code as newer version by machine.
