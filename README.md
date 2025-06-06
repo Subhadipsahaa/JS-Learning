@@ -130,4 +130,5 @@ output:
 ## Note:
   ```js
   console.log(typeof(variable)) // 'typeof' use for know the the type.
+  //null's type is object.
   ```
