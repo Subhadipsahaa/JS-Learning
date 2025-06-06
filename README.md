@@ -73,3 +73,42 @@ A workspace for learning and experimenting with JavaScript basics.
   ```
 ## Note:
   ``"use strict"`` treat all JS code as newer version by machine.
+
+## JavaScript Data Type:
+## JavaScript Data Types
+
+JavaScript supports different types of data, divided into two main categories:
+
+### 1. **Primitive Data Types**
+
+These are the most basic types in JavaScript.
+
+| Type       | Description                      | Example                  |
+|------------|----------------------------------|--------------------------|
+| `String`   | Textual data                     | `"Hello"`                |
+| `Number`   | Numeric values (integers, floats)| `42`, `3.14`             |
+| `Boolean`  | Logical true or false            | `true`, `false`          |
+| `Undefined`| Variable declared but not assigned | `undefined`           |
+| `Null`     | Explicitly empty or null value   | `null`                   |
+| `BigInt`   | Large integers beyond safe limit | `1234567890123456789n`  |
+| `Symbol`   | Unique identifiers               | `Symbol("id")`           |
+
+#### Examples:
+
+```js
+let name = "Subhadip";   // String
+let age = 23;            // Number
+let isStudent = true;    // Boolean
+let city;                // Undefined
+let data = null;         // Null
+let big = 1234567890123456789012345678901234567890n; // BigInt
+let unique = Symbol("id"); // Symbol
+
+console.log(typeof name);       // string
+console.log(typeof age);        // number
+console.log(typeof isStudent);  // boolean
+console.log(typeof city);       // undefined
+console.log(typeof data);       // object (special case)
+console.log(typeof big);        // bigint
+console.log(typeof unique);     // symbol
+```
