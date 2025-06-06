@@ -21,7 +21,10 @@ A workspace for learning and experimenting with JavaScript basics.
   - Used to declare variables whose values cannot be reassigned.
   - Example:
     ```js
-    const PI = 3.14;
+    Code:
+      const PI = 3.14;
+    Output:
+      3.14
     ```
 
 
@@ -29,11 +32,11 @@ A workspace for learning and experimenting with JavaScript basics.
   - Used to declare variables, similar to `let`, but with some differences in scope and hoisting. it can access or modifiable from any shope(its a problem).
   - Example:
     ```js
-    code:
+    Code:
       var name = "Alice";
       console.log(PI);
 
-    output:
+    Output:
       3.14
 
     ```
@@ -42,12 +45,12 @@ A workspace for learning and experimenting with JavaScript basics.
   - Used to declare variables that can be reassigned.(solve the problem of var)
   - Example:
     ```js
-    code:
+    Code:
       let count = 0;
       count = 1;
       console.log(count);
 
-    output:
+    Output:
       1
     ```
 
@@ -55,10 +58,10 @@ A workspace for learning and experimenting with JavaScript basics.
   - we can declear a variable without const,var and let.(Not recomended)
   - Example:
     ```js
-      code:
+      Code:
         greeting = "Hello";
         console.log(greeting);
-      output:
+      Output:
     ```
 
 ## Note:
@@ -68,14 +71,13 @@ A workspace for learning and experimenting with JavaScript basics.
       let a;
     console.log("The value of a is: " + a);
 
-    output:
+    Output:
       The value of a is: undefined
   ```
 ## Note:
-  ``"use strict"`` treat all JS code as newer version by machine.
+  ``"use strict"`` treat all JS Code as newer version by machine.
 
-## JavaScript Data Type:
-## JavaScript Data Types
+## JavaScript Data Types 
 
 JavaScript supports different types of data, divided into two main categories:
 
@@ -96,7 +98,7 @@ These are the most basic types in JavaScript.
 #### Examples:
 
 ```js
-code:
+Code:
   let name = "Subhadip";   // String
   let age = 23;            // Number
   let isStudent = true;    // Boolean
