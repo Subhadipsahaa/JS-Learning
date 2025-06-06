@@ -8,8 +8,6 @@ A workspace for learning and experimenting with JavaScript basics.
   Dev container configuration for a consistent development environment.
   - `01_basics/`  
     Contains basic JavaScript examples and exercises.
-    - `test.js`  
-      Example JavaScript file.
 - `.github/`  
   GitHub configuration files (e.g., Dependabot).
 - `README.md`  
