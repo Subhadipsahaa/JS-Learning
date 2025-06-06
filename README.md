@@ -17,49 +17,49 @@ A workspace for learning and experimenting with JavaScript basics.
 
 ## JavaScript Variables
 
-### const :
-- Used to declare variables whose values cannot be reassigned.
-- Example:
-  ```js
-  const PI = 3.14;
-  ```
+  ### const :
+  - Used to declare variables whose values cannot be reassigned.
+  - Example:
+    ```js
+    const PI = 3.14;
+    ```
 
 
-### var :
-- Used to declare variables, similar to `let`, but with some differences in scope and hoisting. it can access or modifiable from any shope(its a problem).
-- Example:
-  ```js
-  code:
-    var name = "Alice";
-    console.log(PI);
-
-  output:
-    3.14
-
-  ```
-
-### let :
-- Used to declare variables that can be reassigned.(solve the problem of var)
-- Example:
-  ```js
-  code:
-    let count = 0;
-    count = 1;
-    console.log(count);
-
-  output:
-    1
-  ```
-
-### No let,const and var :
-- we can declear a variable without const,var and let.(Not recomended)
-- Example:
-  ```js
+  ### var :
+  - Used to declare variables, similar to `let`, but with some differences in scope and hoisting. it can access or modifiable from any shope(its a problem).
+  - Example:
+    ```js
     code:
-      greeting = "Hello";
-      console.log(greeting);
+      var name = "Alice";
+      console.log(PI);
+
     output:
-  ```
+      3.14
+
+    ```
+
+  ### let :
+  - Used to declare variables that can be reassigned.(solve the problem of var)
+  - Example:
+    ```js
+    code:
+      let count = 0;
+      count = 1;
+      console.log(count);
+
+    output:
+      1
+    ```
+
+  ### No let,const and var :
+  - we can declear a variable without const,var and let.(Not recomended)
+  - Example:
+    ```js
+      code:
+        greeting = "Hello";
+        console.log(greeting);
+      output:
+    ```
 
 ## Note:
   If didn't assign any value, the variable's value will be undefined
