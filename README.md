@@ -118,7 +118,7 @@ Code:
   console.log(typeof data);       // object (special case)
   console.log(typeof big);        // bigint
   console.log(typeof unique);     // symbol
-output:
+Output:
   string
   number
   boolean
